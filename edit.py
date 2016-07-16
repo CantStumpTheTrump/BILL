@@ -21,7 +21,7 @@ if len(sys.argv) > 1:
 				if "y" in exit:
 					sys.exit()
 				elif "n" in exit:
-					pass
+					pass 
 	
 else:
 	print("Welcome to Bill, the world's most minimal editor. Ctrl C to quit")
