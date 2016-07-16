@@ -1,5 +1,7 @@
+from os import system
 import sys
 counter = 0
+system("clear")
 print("Welcome to Bill, the world's most minimal editor  ")
 
 if len(sys.argv)>1: filename = sys.argv[1]
