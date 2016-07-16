@@ -23,7 +23,7 @@ if len(sys.argv) > 1:
 				elif "n" in exit:
 					pass 
 	
-else:
+else: 
 	print("Welcome to Bill, the world's most minimal editor. Ctrl C to quit")
 	filename = raw_input("filename:")
 	open = open(filename,"a+")
