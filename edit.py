@@ -1,8 +1,7 @@
 import sys
-import os
 counter = 0
 if len(sys.argv) > 1: 
-		print("Welcome to Bill, the world's most minimal editor ")
+		print("Welcome to Bill, the world's most minimal editor  ")
 		file = open(sys.argv[1],"a+")
 		print("opened "+sys.argv[1]+" for appending")
 		for line in file:
