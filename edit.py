@@ -19,7 +19,7 @@ while True:
     try:
         counter+=1
         input = raw_input(counter)
-        if "/quit" in input:
+        if "/killbill" in input:
             sys.exit()
         else:
             file.write(input+"\r\n")
