@@ -9,7 +9,7 @@ if len(sys.argv)>1: filename = sys.argv[1]
 else:               filename = raw_input("filename:")
 
 file = open(filename,"a+")
-print "opened "+filename+" for appending"
+print "opened "+filename+" for editing"
 
 for line in file:
     counter+=1
